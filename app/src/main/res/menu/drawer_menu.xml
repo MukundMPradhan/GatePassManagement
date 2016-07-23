@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home"/>
+    </group>
+
+    <item android:title="History">
+        <menu>
+            <item android:title="All" />
+            <item android:title="Accepted" />
+            <item android:title="Rejected" />
+            <item android:title="Pending" />
+        </menu>
+    </item>
+    <group>
+        <item
+            android:id="@+id/new_pass"
+            android:icon="@mipmap/ic_launcher"
+            android:title="New Pass"/>
+        <item
+            android:id="@+id/add_company"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Add Company"/>
+        <item
+            android:id="@+id/reports"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Reports">
+            <menu>
+                <item android:title="Renewal" />
+                <item android:title="Monthly" />
+            </menu>
+
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/Logout"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Logout"></item>
+    </group>
+
+</menu>
